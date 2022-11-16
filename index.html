@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>edie-homepage-master</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="grid.css">
+        <link rel="stylesheet" href="team.css">
+        <script src="script.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    </header>
+
+
+    <body id="body">
+        <div class="header">        
+            <div class="title_pag"> Edie</div>
+            <div class="navigation_head">
+                <div class="Menu_but" onclick="open_menu()">
+                    <span class="material-symbols-outlined" title="Menu"   id="menu">menu</span>       
+                </div>
+                <div class="home"><a href="#Home">Home</a></div>
+                <div class="Services"><a href="#Services">Services</a></div>
+                <div class="Our_works"><a href="#Our_works">Our works</a></div>
+                <div class="Clients"><a href="#Clients">Clients</a></div>
+                <div class="Contact"><a href="#contact">Contact</a></div>
+                <div class="Menu_nav" id="Menu_nav">
+                    <div class="menu_close" onclick="close_menu()" >X</div>
+                    <div class="home_nav" onclick="close_menu()"><a href="#Home">Home</a></div>
+                    <div class="Services_nav" onclick="close_menu()"><a href="#Services">Services</a></div>
+                    <div class="Our_works_nav" onclick="close_menu()"><a href="#Our_works">Our works</a></div>
+                    <div class="Clients_nav" onclick="close_menu()"><a href="#Clients">Clients</a></div>
+                    <div class="Contact_nav" onclick="close_menu()"><a href="#contact">Contact</a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cuerpo"> <!-- flex vertical-->
+            <div class="hook" id="Home">Unhappy with your website?</div>
+            <div class="create">We create beautiful and fast web services</div>
+            <img class="heroImage" src="heroImage.jpg">
+            <div class="story">Story, emotion and purpose</div>
+            <div class="story_info">We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time.</div>
+            <div class="contact_text">Want us to contact you?</div>
+            <div class="input_field">
+                <input class="input_info" type="text" id="email" name="email" placeholder="Email">                        
+                <button class="join_butt">Join</button>
+            </div>
+        </div>
+
+        
+        <div class="Services_text" id="Services">We offer high demand services  </div>
+
+        <div class="services"> <!-- flex horixontal-->
+            <div class="design"> <!-- flex vertical-->
+                <div class="icon_d"><span class="material-symbols-outlined icon_a">edit</span></div>
+                <div class="title">UI/UX Design</div>
+                <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</div>
+                <button class="butt">Get started</button>
+            </div>
+
+            <div class="front_end"> <!-- flex vertical-->
+                <div class="icon_f"><span class="material-symbols-outlined icon_a">code</span></div>
+                <div class="title">Front End</div>
+                <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</div>
+                <button class="butt">Get started</button>
+            </div>
+
+            <div class="back_end"> <!-- flex vertical-->
+                <div class="icon_b"><span class="material-symbols-outlined icon_a ">storage</span></div>
+                <div class="title">Back End</div>
+                <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</div>
+                <button class="butt">Get started</button>
+            </div>
+
+        </div>
+    
+    
+        <div class="good" id="Our_works">Good design means good business</div>
+
+        <div class="grid">
+            <div class="grid_elem"><!-- flex vertical-->
+                <img class="smarthome" src="smarthome.jpg">
+                <div class="app">Full stack application</div>
+                <div class="app_name">Smart home dashboard</div>
+            </div>
+            <div class="grid_elem"><!-- flex vertical-->
+                <img class="onboard" src="onboard.png">
+                <div class="app">UX/UI design</div>
+                <div class="app_name">Onboard application</div>
+            </div>
+            <div class="grid_elem"><!-- flex vertical-->
+                <img class="booking" src="booking.png">
+                <div class="app">Mobile application</div>
+                <div class="app_name">Booking system</div>
+            </div>
+            <div class="grid_elem"><!-- flex vertical-->
+                <img class="juice" src="juice-product.png">
+                <div class="app">Front End application</div>
+                <div class="app_name">Juice product homepage</div>
+            </div>
+        </div>
+
+        <div class="more"> see more <span class="material-symbols-outlined more_i">east</span></div>
+
+        <div class="team_info"> <!--flex horizontal-->
+            <div class="team">
+                <div class="team_meet">Meet the team</div>
+                <div class="team_title">We are chilled and a laidback team</div>
+                <div class="team_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+            </div>
+            <div class="team_pic"> <!--felx horizontal-->
+                <img class="person3"   src="person3.png">
+                <div class="team_pic2"> <!-- flex vertical-->
+                    <img class="person1" src="person1.png">
+                    <img class="person2" src="person2.png">
+                </div>
+            </div>
+        </div>
+
+        <div class="quote" id="Clients">“Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented team.”</div>
+        <div class="author" > <!-- flex horizontal-->
+            <img class="author_pic" src="person4.png">
+            <div class="author_info"> <!-- flex vertical-->
+                <div class="author_name">Carlos Tran</div>
+                <div class="author_title">The Decorate Gatsby </div>
+            </div>
+        </div>
+        
+
+
+
+
+        <div class="footer"> <!--flex vertical-->
+            
+            <div class="footer_sup"> <!--flex horizontal-->
+                <div class="navigation_foot"><!-- flex vertical-->
+                    <div class="home_f"><a href="#Home">Home</a></div>
+                    <div class="Services_f"><a href="#Services">Services</a></div>
+                    <div class="Our_works_f"><a href="#Our_works">Our works</a></div>
+                    <div class="Clients_f"><a href="#Clients">Clients</a></div>
+                    <div class="Contact_f"><a href="#contact">Contact</a></div>
+                </div>
+
+                <div class="social"><!-- flex vertical-->
+                    <div class="Edie">Edie</div>
+                    <div class="social_icons">
+                        <img class="icon_social" src="instagram.svg">
+                        <img class="icon_social" src="linkedin.svg">
+                        <img class="icon_social" src="twitter.svg">
+                    </div>            
+                </div>
+
+                <div class="contact" id="contact"><!-- flex vertical-->
+                    <div class="contact_text">Want us to contact you?</div>
+                    <div class="input_field"><!--flex horizontal-->
+                        <input class="input_info" type="text" id="email" name="email" placeholder="Email">                        
+                        <button class="join_butt">Join</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info_pag" id="info_pag"> created by <span class="username"> N1kf3</span> - devChallenges.io </div>
+            
+        </div>
+
+        
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>   
+    </body> 
+</html>

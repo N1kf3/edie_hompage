@@ -1,0 +1,86 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #100E1D;
+    color: white;
+    margin-bottom: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.footer_sup{
+    display: flex;
+    flex-direction: row;
+    margin-left: 168px ;
+    margin-top: 50px ;
+    margin-right: 137px;
+    justify-content: space-between;
+}
+
+.social_icons{
+    display: flex;
+    flex-direction: row;
+}
+
+.icon_social{
+    margin-right: 15px;
+}
+
+.navigation_foot  a{
+    text-decoration: none;
+    color: white;
+}
+
+.home_f, .Services_f, .Our_works_f,.Clients_f,.Contact_f{
+    font-size: 18px;
+    margin-bottom:18px ;
+}
+
+.home_f:hover, .Services_f:hover, .Our_works_f:hover, .Clients_f:hover, .Contact_f:hover{
+    cursor: pointer;
+}
+
+.Edie{
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.icon_social:hover{
+    cursor: pointer;
+}
+
+.info_pag{
+    color: rgba(189, 189, 189, 1);
+    font-weight: 500;
+    font-size: 14px;
+    width: 287px;
+    height: 17px;   
+    margin-left: 40%;
+    margin-top: 170px;
+}
+
+.username{
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+
+@media only screen and (max-width: 620px) {
+    
+    .footer_sup{
+        flex-direction: column;
+        margin-left: 30px ;
+        margin-top: 50px ;
+        margin-right: 137px;
+    }
+
+    .social{
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+
+    .info_pag{
+        margin-left: 30%;
+
+    }
+}

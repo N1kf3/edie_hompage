@@ -1,0 +1,206 @@
+.Services_text{
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    margin-left: 165px;
+    margin-top: 200px;
+    width: 300px;
+}
+
+.services{
+    display: flex;
+    flex-direction: row;
+    margin-left: 165px;
+    justify-content: space-between;
+    margin-right: 204px;
+}
+
+.design ,.front_end ,.back_end{
+    display: flex;
+    flex-direction: column;
+    height: 405px;
+    width: 341px;
+}
+
+.icon_a{
+    color: white; 
+    padding-top: 17px; 
+    padding-left: 17px; 
+}
+
+.icon_d{
+   background-color: #2D9CDB;   
+   height:60px;
+   width: 60px;   
+   border-radius: 16px;
+   margin-top: 46px;
+   margin-left: 34px;
+   
+}
+
+.icon_f{
+    background-color: #27AE60;
+    height:60px;
+    width: 60px;   
+    border-radius: 16px;
+    margin-top: 46px;
+    margin-left: 34px;
+}
+
+.icon_b{
+    background: #EB5757;
+    height:60px;
+    width: 60px;   
+    border-radius: 16px;
+    margin-top: 46px;
+    margin-left: 34px;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 35px;
+    margin-bottom: 24px;
+    margin-left: 34px;
+}
+
+.desc{
+    margin-left: 34px;
+    margin-right: 34px;
+    color: #4F4F4F;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.butt{
+    background-color: #E0E0E0;
+    border-radius: 12px;
+    color: rgba(130, 130, 130, 1);
+    border: none;
+    margin-left: 34px;
+    width: 116px;
+    height: 42px;
+}
+
+.design:hover,.front_end:hover ,.back_end:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+    border-radius: 14px;
+}
+
+.butt:hover {
+    color: white;
+    background-color: #2D9CDB;
+    cursor: pointer;
+}
+
+.good{
+    margin-top: 194px;
+    font-weight: 500;
+    font-size: 36px;
+    margin-left: 165px;
+    width: 350px;
+    margin-bottom: 15px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 165px;
+    margin-right: 167px;
+}
+
+.smarthome{
+    margin-top:188px ;
+    height: 500px;
+    width: 500px;
+    border-radius: 14px;
+}
+
+.booking{
+    margin-top:105px ;
+    height: 500px;
+    width: 500px;
+    border-radius: 14px;
+}
+
+.onboard, .juice{
+    height: 500px;
+    width: 500px;
+    border-radius: 14px;
+}
+
+.app{
+    margin-top: 14px;
+    margin-bottom: 14px;
+    color:#828282;
+    font-size: 14px;
+}
+
+.app_name{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.more{
+    color: rgba(45, 156, 219, 1);
+    font-size: 24px;
+    font-weight: 500;
+    float: right;
+    margin-right: 260px;
+}
+
+.more_i{
+    vertical-align: middle;
+}
+
+
+@media only screen and (max-width: 620px) {
+    
+    .Services_text{
+        margin-left: 30px;
+        margin-top: 102px ;
+    }
+
+    .services{
+        flex-direction: column;
+        margin-left: 30px;
+        margin-right: 50px ;
+    }
+
+    .design ,.front_end ,.back_end{
+        height: 422px;
+        width: 341px;
+    }
+
+    .good{
+        margin-left: 30px;
+        margin-top: 145px;
+        margin-bottom: 48px;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 30px;
+        margin-right: 0;
+    }
+
+    .smarthome, .booking, .onboard, .juice{
+        margin-top: 48px ;
+        height: 351px;
+        width: 351px;
+        border-radius: 14px;
+    }
+
+    .app{
+        margin-bottom: 0;
+    }
+
+    .more{
+        margin-top: 40px;
+        margin-left: 30px;
+        float:none;
+    }
+
+}

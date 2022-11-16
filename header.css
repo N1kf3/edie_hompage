@@ -1,0 +1,80 @@
+.navigation_head a{
+    text-decoration: none;
+    color: black;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.title_pag{
+    font-size: 36px;
+    font-weight: 800;
+    margin-left: 52px;
+}
+
+.navigation_head{
+    display: flex;
+    flex-direction: row;
+    margin-left: 45%;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.home, .Services, .Our_works, .Clients, .Contact{
+    margin-left: 14%;
+    white-space: nowrap;
+}
+
+.home:hover, .Services:hover, .Our_works:hover, .Clients:hover, .Contact:hover{
+    cursor: pointer;
+}
+
+.Menu_but{
+    display: none;
+}
+
+.Menu_but:hover , .menu_close:hover{
+    cursor: pointer;
+}
+
+.Menu_nav{
+    visibility: hidden;
+    background-color: lightgrey;
+    position:  absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+}
+
+.home_nav, .Services_nav, .Our_works_nav, .Clients_nav, .Contact_nav{
+    text-align: center;
+    margin-top: 10%;
+}
+.menu_close{
+    text-align: right;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 620px) {
+    .header{
+        width: 100%;
+    }
+    .title_pag{
+        margin-left: 5px;
+        flex:1;
+        font-size: 24px;
+    }
+    .Menu_but{
+        display:inline;
+        flex:1;
+        margin-right: 15px;
+    }
+    .home, .Services, .Our_works, .Clients, .Contact{
+        display:none;
+    }
+
+}
